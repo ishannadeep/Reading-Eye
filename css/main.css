@@ -265,7 +265,7 @@ input.search-form:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #383838;
+  background: linear-gradient(to bottom right,#0a0a0af5 0%, #01125f 100%);
   padding: 15px 0;
   padding-bottom: 0;
 }
@@ -836,7 +836,7 @@ input.search-form:hover {
 }
 
 .panel-heading.active{
-  background: #1f1f20;
+  background: linear-gradient(to bottom right,#0a0a0af5 0%, #01125f 100%);
 }
 
 .panel-heading.active .panel-title>a{
@@ -892,7 +892,7 @@ a.accordion-toggle  i{
 }
 
 .nav-tabs>li>a:hover{
-  background: #1f1f20;
+  background: linear-gradient(to bottom right,#0a0a0af5 0%, #01125f 100%);
   color:#fff;
 }
 
@@ -901,7 +901,7 @@ a.accordion-toggle  i{
 .nav-tabs>li.active>a:focus {
   border: 0;
   color:#fff;
-  background: #1f1f20;
+  background: linear-gradient(to bottom right,#0a0a0af5 0%, #01125f 100%);
   position: relative;
 }
 
@@ -911,7 +911,7 @@ a.accordion-toggle  i{
   width: auto;
   height: auto;
   border-style:solid;
-  border-color: transparent transparent transparent #1f1f20;
+  border-color: transparent transparent transparent linear-gradient(to bottom right,#0a0a0af5 0%, #01125f 100%);
   border-width: 25px 22px;
   right: -44px;
   top:0;
@@ -1535,7 +1535,7 @@ ul.social_icons li  a i{
 }
 
 .footer {
-  background: none repeat scroll 0 0 #383838;
+  background: none repeat scroll 0 0 linear-gradient(to bottom right,#0a0a0af5 0%, #01125f 100%);
   border-top: 5px solid #1397d5;
   height: 84px;
   margin-top: 110px;
@@ -2519,7 +2519,7 @@ shortcodes page css
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  background: #2e2e2e;
+  background: linear-gradient(to bottom right,#0a0a0af5 0%, #01125f 100%);
 }
 
 #footer a {
@@ -2574,7 +2574,9 @@ shortcodes page css
 }
 
 .titlex {
-  color: grey;
+  font-size: larger;
+  color: #051250;
+  font-family: sans-serif;
 }
 
 .buttonx {
